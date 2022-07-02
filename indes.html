@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>compund interest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="loan" name="variables" checked>
+  <label for="loan">Loan amount</label>
+  <input type="radio" id="payment" name="variables">
+  <label for="payment">Monthly payment</label>
+  <input type="radio" id="interest" name="variables">
+  <label for="interest">Interest rate</label>
+  <input type="radio" id="months" name="variables">
+  <label for="months">Number of months</label><br><br>
+  <!-- end radio -->
+
+  <label for="v1" id="variable1">Enter the monthly payment</label>
+  <input type="number" id="v1"><br><br>
+  <label for="v2" id="variable2">Enter the interest rate</label>
+  <input type="number" id="v2"><br><br>
+  <label for="v3" id="variable3">Enter the number of months</label>
+  <input type="number" id="v3"><br><br>
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
